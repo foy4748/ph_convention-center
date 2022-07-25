@@ -3,3 +3,8 @@
  * Custom CSS
  *
  */
+
+.fix-img {
+  object-fit: cover;
+  max-height: 50vh;
+}
