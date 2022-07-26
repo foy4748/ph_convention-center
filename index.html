@@ -1,309 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abacus | Home</title>
 
-    <!-- IMPORT Bootstrap CSS -->
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Abacus | Home</title>
 
-    <!-- User Au -->
-  </head>
+	<!-- IMPORT Bootstrap CSS -->
+	<link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
 
-  <body>
-    <!-- HEADER SECTION -->
-    <header class="mx-md-5">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Abacus Convention Center</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse d-lg-flex justify-content-lg-end"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- END of HEADER SECTION -->
+	<!-- User Authored stylesheet -->
+	<link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- CAROUSEL SECTION -->
-    <section class="carousel">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/banner.png" class="d-block fix-img" alt="..." />
-            <div class="carousel-caption">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <img src="./images/banner.png" class="d-block fix-img" alt="..." />
-            <div class="carousel-caption">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <img src="./images/banner.png" class="d-block fix-img" alt="..." />
-            <div class="carousel-caption">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!-- END of CAROUSEL SECTION -->
+<body>
+	<!-- HEADER SECTION -->
+	<header class="mx-md-5">
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Abacus Convention Center</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Subscribe</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- END of HEADER SECTION -->
 
-    <!-- Feature Section -->
-    <section class="container mt-5">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <img src="./images/wedding.png" class="img-fluid" />
-        </div>
-        <div class="col-md-6 p-5">
-          <h1>Every Moment is Precious</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            dolorum ad incidunt amet nostrum unde perspiciatis animi nobis cum
-            nemo.
-          </p>
-          <button type="button" class="btn btn-primary">
-            Explore Our Album
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- END of Feature Section -->
+	<!-- CAROUSEL SECTION -->
+	<section class="carousel">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/banner.png" class="d-inline-block fix-img" alt="..." />
+					<div class="carousel-caption">
+						<h5>First slide label</h5>
+						<p>
+							Some representative placeholder content for the first slide.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item">
+					<img src="./images/banner.png" class="d-inline-block fix-img" alt="..." />
+					<div class="carousel-caption">
+						<h5>Second slide label</h5>
+						<p>
+							Some representative placeholder content for the first slide.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item">
+					<img src="./images/banner.png" class="d-inline-block fix-img" alt="..." />
+					<div class="carousel-caption">
+						<h5>Third slide label</h5>
+						<p>
+							Some representative placeholder content for the first slide.
+						</p>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	<!-- END of CAROUSEL SECTION -->
 
-    <!-- Our Packages -->
-    <section class="package-section">
-      <h1 class="text-center my-5">Our Packages</h1>
-      <div class="container">
-        <div class="row g-3">
-          <div class="col-md-6 col-lg-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">$300</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">$500</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">$800</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">$1200</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of our packages -->
+	<!-- Feature Section -->
+	<section class="container mt-5">
+		<div class="row align-items-center">
+			<div class="col-md-6">
+				<img src="./images/wedding.png" class="img-fluid" />
+			</div>
+			<div class="col-md-6 p-5">
+				<h1>Every Moment is Precious</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+					dolorum ad incidunt amet nostrum unde perspiciatis animi nobis cum
+					nemo.
+				</p>
+				<button type="button" class="btn btn-primary">
+					Explore Our Album
+				</button>
+			</div>
+		</div>
+	</section>
+	<!-- END of Feature Section -->
 
-    <!-- Happy Clients -->
-    <section>
-      <div class="container my-5">
-        <h1 class="text-center">Our Client Says</h1>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-img d-flex justify-content-center my-5">
-                  <img
-                    src="./images/person 1.png"
-                    class="card-img-top rounded img-fluid w-50"
-                    alt="..."
-                  />
-                </div>
-                <div class="card-body text-center">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-img d-flex justify-content-center my-5">
-                  <img
-                    src="./images/person 1.png"
-                    class="card-img-top rounded img-fluid w-50"
-                    alt="..."
-                  />
-                </div>
-                <div class="card-body text-center">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-img d-flex justify-content-center my-5">
-                  <img
-                    src="./images/person 1.png"
-                    class="card-img-top rounded img-fluid w-50"
-                    alt="..."
-                  />
-                </div>
-                <div class="card-body text-center">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="card">
-                <div class="card-img d-flex justify-content-center my-5">
-                  <img
-                    src="./images/person 1.png"
-                    class="card-img-top rounded img-fluid w-50"
-                    alt="..."
-                  />
-                </div>
-                <div class="card-body text-center">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of  Happy Clients -->
-    <!--  --------------------  -->
-    <!-- IMPORT Bootstrap JS -->
-    <script src="./bootstrap/bootstrap.min.js"></script>
-  </body>
+	<!-- Our Packages -->
+	<section class="package-section">
+		<h1 class="text-center my-5">Our Packages</h1>
+		<div class="container">
+			<div class="row g-3">
+				<div class="col-md-6 col-lg-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">$300</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">$500</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">$800</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">$1200</h5>
+							<p class="card-text">
+								Some quick example text to build on the card title and make up
+								the bulk of the card's content.
+							</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of our packages -->
+
+	<!-- Happy Clients -->
+	<section>
+		<div class="container my-5">
+			<h1 class="text-center">Our Client Says</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-img d-flex justify-content-center my-5">
+								<img src="./images/person 1.png" class="card-img-top rounded img-fluid w-50"
+									alt="..." />
+							</div>
+							<div class="card-body text-center">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title and make
+									up the bulk of the card's content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-img d-flex justify-content-center my-5">
+								<img src="./images/person 1.png" class="card-img-top rounded img-fluid w-50"
+									alt="..." />
+							</div>
+							<div class="card-body text-center">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title and make
+									up the bulk of the card's content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-img d-flex justify-content-center my-5">
+								<img src="./images/person 1.png" class="card-img-top rounded img-fluid w-50"
+									alt="..." />
+							</div>
+							<div class="card-body text-center">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title and make
+									up the bulk of the card's content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-img d-flex justify-content-center my-5">
+								<img src="./images/person 1.png" class="card-img-top rounded img-fluid w-50"
+									alt="..." />
+							</div>
+							<div class="card-body text-center">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title and make
+									up the bulk of the card's content.
+								</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of  Happy Clients -->
+	<!--  --------------------  -->
+	<!-- IMPORT Bootstrap JS -->
+	<script src="./bootstrap/bootstrap.min.js"></script>
+</body>
+
 </html>
